@@ -2,6 +2,9 @@
 import PropTypes from "prop-types"
 import React from "react"
 import facebook from "../images/icon-facebook.png"
+import instagram from "../images/icon-instagram.png"
+import twitter from "../images/icon-twitter.png"
+import youtube from "../images/icon-youtube.png"
 //import Image from "../components/image"
 //import styled from "styled-components"
 
@@ -48,18 +51,18 @@ const Header = ({ siteTitle }) => {
                 </div>
                 <div className="col s3 valign-wrapper">
                   <a href="https://www.instagram.com/beatrizmendozaforsantaana/" className="valign-wrapper" title="Beatriz Mendoza on Instagram">
-                    <img src="/static/icon-instagram.png" alt="instagram icon" />
+                    <img src={instagram} alt="instagram icon" />
                   </a>
                 </div>
                 <div className="col s3 valign-wrapper">
                   <a href="https://twitter.com/mendoza4sa" className="valign-wrapper" title="Beatriz Mendoza on Twitter">
-                    <img src="/static/icon-twitter.png" alt="twitter icon" />
+                    <img src={twitter} alt="twitter icon" />
                   </a>
                   
                 </div>
                 <div className="col s3 valign-wrapper">
                   <a href="#" className="valign-wrapper" title="Beatriz Mendoza on Youtube">
-                    <img src="/static/icon-youtube.png" alt="youtube icon" />
+                    <img src={youtube} alt="youtube icon" />
                   </a>
                 </div>
               </div>
