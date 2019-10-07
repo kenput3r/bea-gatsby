@@ -1,21 +1,24 @@
-import React from "react"
-import { Link } from "gatsby"
-
+import React, {useEffect} from "react"
+//import { Link } from "gatsby"
+import InfoSection from "../components/infoSection"
+import ParallaxSection from "../components/parallaxSection"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import M from 'materialize-css'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const IndexPage = () => {
+  useEffect(() => {
+    const elems = document.querySelectorAll('.parallax');
+    M.Parallax.init(elems);
+  });
+  return(
+    <Layout>
+      <SEO title="Home" />
+      <InfoSection />
+      <ParallaxSection />
+      {/* <Link to="/page-2/">Go to page 2</Link> */}
+    </Layout>
+  )
+}
 
 export default IndexPage

@@ -4,4 +4,14 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+// const insertMaterializeJS = () => {
+//   const script = document.createElement('script');
+//   script.type = 'text/javascript';
+//   script.src = '/static/materialize.min.js';
+//   const body = document.querySelector('body');
+//   body.insertAdjacentElement('beforeend', script);
+// }
+
+// exports.onInitialClientRender = () => {
+//   //insertMaterializeJS();
+// }
