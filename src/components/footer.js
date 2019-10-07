@@ -13,6 +13,11 @@ const Footer = () =>(
         <p>Join the winning team! Help me spread the word in Santa Ana that I am the best candidate to represent our residents. Email Thomas at thomaso.grimes@gmail.com or you can call me directly at (714) 866-8788.</p>
       </div>
     </div>
+    <div className="row">
+      <div className="col s12 center-align">
+        <a href="https://www.paypal.com/donate/?token=zUwk2mEI2eqaq2YXWOMiW6BB_Mh7rXLQ_svV7lCp9HUgXszCyMRwwCC-H14qg425rqMT-G&country.x=US&locale.x=US" className="btn" style={{backgroundColor: '#1e6fbe'}}>DONATE</a>
+      </div>
+    </div>
   </div>
   <div className="footer-copyright">
     <div className="container">
