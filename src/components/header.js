@@ -5,6 +5,8 @@ import facebook from "../images/icon-facebook.png"
 import instagram from "../images/icon-instagram.png"
 import twitter from "../images/icon-twitter.png"
 import youtube from "../images/icon-youtube.png"
+import logo from "../images/logo.jpg"
+import beaMendoza from "../images/bea-mendoza.jpg"
 //import Image from "../components/image"
 //import styled from "styled-components"
 
@@ -80,13 +82,13 @@ const Header = ({ siteTitle }) => {
       <div className="section no-pad-bot">
         <div className="container">
           <div className="row">
-            <img className="logo" src="/static/logo.jpg" alt="The Beatriz Mendoza for 
+            <img className="logo" src={logo} alt="The Beatriz Mendoza for 
             Santa Ana City Council logo" />
           </div>
         </div>
       </div>
       <div className="parallax">
-        <img className="header-image" src="/static/bea-mendoza.jpg" alt="Photograph of Beatriz Mendoza" /> 
+        <img className="header-image" src={beaMendoza} alt="Photograph of Beatriz Mendoza" /> 
         {/*<img src="/static/bea-mendoza.jpg" />*/}
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react"
+import courtHouse from "../images/santa-ana-old-courthouse.jpg"
 const ParallaxSection = () =>(
   <div className="parallax-container valign-wrapper">
     <div className="section no-pad-bot">
@@ -9,7 +10,7 @@ const ParallaxSection = () =>(
       </div>
     </div>
     <div className="parallax">
-      <img src="/static/santa-ana-old-courthouse.jpg" alt="Old Santa Ana Courthouse" style={{transform: `translate3d(-50%, 275.979px, 0px)`, opacity: `1`}} />
+      <img src={courtHouse} alt="Old Santa Ana Courthouse" style={{transform: `translate3d(-50%, 275.979px, 0px)`, opacity: `1`}} />
     </div>
   </div>
 )
