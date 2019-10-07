@@ -8,8 +8,10 @@ import M from 'materialize-css'
 
 const IndexPage = () => {
   useEffect(() => {
-    const elems = document.querySelectorAll('.parallax');
-    M.Parallax.init(elems);
+    if(window) {
+      const elems = document.querySelectorAll('.parallax');
+      M.Parallax.init(elems);
+    }
   });
   return(
     <Layout>
