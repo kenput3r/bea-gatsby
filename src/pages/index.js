@@ -4,14 +4,15 @@ import InfoSection from "../components/infoSection"
 import ParallaxSection from "../components/parallaxSection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import M from 'materialize-css'
+if (typeof window !== `undefined`) {
+//import M from 'materialize-css'
+require('materialize-css')
+}
 
 const IndexPage = () => {
   useEffect(() => {
-    if(window) {
-      const elems = document.querySelectorAll('.parallax');
-      M.Parallax.init(elems);
-    }
+    const elems = document.querySelectorAll('.parallax');
+    window.M.Parallax.init(elems);
   });
   return(
     <Layout>
