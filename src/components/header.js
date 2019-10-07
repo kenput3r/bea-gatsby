@@ -63,7 +63,7 @@ const Header = ({ siteTitle }) => {
                   
                 </div>
                 <div className="col s3 valign-wrapper">
-                  <a href="#" className="valign-wrapper" title="Beatriz Mendoza on Youtube">
+                  <a href="https://www.youtube.com/channel/UCIROidHdQWgyQVl5jRlZGiw?disable_polymer=true" className="valign-wrapper" title="Beatriz Mendoza on Youtube">
                     <img src={youtube} alt="youtube icon" />
                   </a>
                 </div>
