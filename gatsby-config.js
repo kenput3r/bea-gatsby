@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Beatriz Mendoza For Santa Ana City Council`,
+    title: `Beatriz Mendoza For Santa Ana City Council 2019`,
     description: `Improve Public Safety, Help Solve Santa Ana's Homlessness Problem, Promote New Jobs & Economic Development, Improve 911 Response Times...`,
     author: `Beatriz Mendoza for City Council 2019`,
   },

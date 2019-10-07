@@ -16,7 +16,7 @@ const IndexPage = () => {
   });
   return(
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Beatriz Mendoza" />
       <InfoSection />
       <ParallaxSection />
       {/* <Link to="/page-2/">Go to page 2</Link> */}
