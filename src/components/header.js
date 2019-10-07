@@ -1,6 +1,7 @@
 //import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import facebook from "../images/icon-facebook.png"
 //import Image from "../components/image"
 //import styled from "styled-components"
 
@@ -42,7 +43,7 @@ const Header = ({ siteTitle }) => {
               <div className="row social-icons valign-wrapper" style={{marginBottom: 0}}>
                 <div className="col s3 valign-wrapper">
                   <a className="valign-wrapper" href="https://www.facebook.com/BeatrizMendozaSantaAna/" title="Beatriz Mendoza on Facebook">
-                    <img src="/static/icon-facebook.png" alt="facebook icon" />
+                    <img src={facebook} alt="facebook icon" />
                   </a>
                 </div>
                 <div className="col s3 valign-wrapper">
