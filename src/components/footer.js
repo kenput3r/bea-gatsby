@@ -15,7 +15,7 @@ const Footer = () =>(
     </div>
     <div className="row">
       <div className="col s12 center-align">
-        <a href="https://www.paypal.com/donate/?token=zUwk2mEI2eqaq2YXWOMiW6BB_Mh7rXLQ_svV7lCp9HUgXszCyMRwwCC-H14qg425rqMT-G&country.x=US&locale.x=US" className="btn" style={{backgroundColor: '#1e6fbe'}}>DONATE</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=beatrizmendozaforcitycouncil%40gmail.com&item_name=Beatriz+Mendoza+for+City+Council+2019&currency_code=USD&source=url" className="btn" style={{backgroundColor: '#1e6fbe'}}>DONATE</a>
       </div>
     </div>
   </div>
