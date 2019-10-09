@@ -2,6 +2,7 @@ import React, {useEffect} from "react"
 //import { Link } from "gatsby"
 import InfoSection from "../components/infoSection"
 import ParallaxSection from "../components/parallaxSection"
+import VideoSection from "../components/videoSection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 if (typeof window !== `undefined`) {
@@ -19,6 +20,7 @@ const IndexPage = () => {
       <SEO title="Beatriz Mendoza" />
       <InfoSection />
       <ParallaxSection />
+      <VideoSection />
       {/* <Link to="/page-2/">Go to page 2</Link> */}
     </Layout>
   )
