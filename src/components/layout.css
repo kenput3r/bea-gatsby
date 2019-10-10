@@ -72,6 +72,10 @@ nav {
   background-color: #ed2024;
 }
 
+.btn.background-red:hover {
+  background-color: #ea6c6f;
+}
+
 .icon-block i.medium {
   color: #1e6fbe;
   max-width: 80px;

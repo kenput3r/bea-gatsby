@@ -70,6 +70,7 @@ const Header = ({ siteTitle }) => {
                 <li><Link to="/about/">About</Link></li>
                 {/* <li><a href="/events">Events</a></li>
                 <li><a href="/contact">Contact</a></li> */}
+                <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=beatrizmendozaforcitycouncil%40gmail.com&item_name=Beatriz+Mendoza+for+City+Council+2019&currency_code=USD&source=url" className="btn background-red">Donate</a></li>
               </ul>
             </div>
 
