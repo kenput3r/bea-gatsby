@@ -1,22 +1,16 @@
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import facebook from "../images/icon-facebook.png"
 import instagram from "../images/icon-instagram.png"
 import twitter from "../images/icon-twitter.png"
 import youtube from "../images/icon-youtube.png"
-import logo from "../images/logo.jpg"
-import beaMendoza from "../images/bea-mendoza.jpg"
 //import Image from "../components/image"
 //import styled from "styled-components"
 
 const Header = ({ siteTitle }) => {
   return(
-    <header
-      style={{
-        marginBottom: `1.45rem`,
-      }}
-    >
+    <header>
       {/* <div
         style={{
           margin: `0 auto`,
@@ -40,8 +34,8 @@ const Header = ({ siteTitle }) => {
       <nav>
         <div className="nav-wrapper" style={{padding: '0 10px'}}>
           <div className="row valign-wrapper" style={{marginBottom: 0}}>
-            <div className="col s12 l5">
-              <a href="/" style={{width: '100%'}}>Beatriz Mendoza For Santa Ana City Council, 2019</a>
+            <div className="col s11 l5">
+              <a href="/" style={{width: '100%'}}>Beatriz Mendoza For Santa Ana City Council</a>
             </div>
 
             <div className="col l2 hide-on-med-and-down">
@@ -71,26 +65,20 @@ const Header = ({ siteTitle }) => {
             </div>
 
             <div className="col l5 hide-on-med-and-down right-align">
-              <a href="mailto:info@beamendoza.com" title="email Beatriz Mendoza">info@beamendoza.com</a>
+              <ul className="right">
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about/">About</Link></li>
+                {/* <li><a href="/events">Events</a></li>
+                <li><a href="/contact">Contact</a></li> */}
+              </ul>
             </div>
 
+            <div className="col s1 hide-on-large-only">
+              <a href="#" data-target="MobileNav" className="sidenav-trigger" style={{margin: "0"}}><i className="material-icons">menu</i></a>
+            </div>
           </div>
         </div>
       </nav>
-    </div>
-    <div className="parallax-container valign-wrapper">
-      <div className="section no-pad-bot">
-        <div className="container">
-          <div className="row">
-            <img className="logo" src={logo} alt="The Beatriz Mendoza for 
-            Santa Ana City Council logo" />
-          </div>
-        </div>
-      </div>
-      <div className="parallax">
-        <img className="header-image" src={beaMendoza} alt="Photograph of Beatriz Mendoza" /> 
-        {/*<img src="/static/bea-mendoza.jpg" />*/}
-      </div>
     </div>
     </header>
   )

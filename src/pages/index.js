@@ -5,10 +5,7 @@ import ParallaxSection from "../components/parallaxSection"
 import VideoSection from "../components/videoSection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-if (typeof window !== `undefined`) {
-//import M from 'materialize-css'
-require('materialize-css')
-}
+import Banner from "../components/banner"
 
 const IndexPage = () => {
   useEffect(() => {
@@ -18,10 +15,12 @@ const IndexPage = () => {
   return(
     <Layout>
       <SEO title="Beatriz Mendoza" />
+      <Banner />
       <InfoSection />
       <ParallaxSection />
       <VideoSection url="https://www.youtube.com/embed/zCA8EvxjsFY?rel=0" />
       {/* <Link to="/page-2/">Go to page 2</Link> */}
+      
     </Layout>
   )
 }

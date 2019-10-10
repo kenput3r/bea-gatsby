@@ -54,7 +54,7 @@ nav {
 } */
 
 .page-footer {
-  background-color: #f50003;
+  background-color: #ed2024;
 }
 
 .color-blue {
@@ -66,10 +66,10 @@ nav {
 }
 
 .color-red {
-  color: #f50003;
+  color: #ed2024;
 }
 .background-red {
-  background-color: #f50003;
+  background-color: #ed2024;
 }
 
 .icon-block i.medium {
@@ -79,6 +79,16 @@ nav {
 
 .social-icons .col {
   max-height: 64px;
+}
+
+.sidenav-social-icons {
+  bottom: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+.sidenav-social-icons img {
+  max-width: 30px;
 }
 
 .nav-wrapper .social-icons img {
