@@ -15,6 +15,7 @@ const ContactForm = () => {
       <div className="row">
         <div className="col s12">
           <form name="volunteer" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="volunteer" />
             <div className="row">
               <div className="col s12 l6 input-field">
                 <input id="first_name" type="text" className="validate"></input>
