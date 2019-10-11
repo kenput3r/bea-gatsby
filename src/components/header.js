@@ -75,7 +75,7 @@ const Header = ({ siteTitle }) => {
               </ul>
             </div>
 
-            <div className="col s1 hide-on-large-only">
+            <div className="col s1 hide-on-large-only" style={{padding: "0"}}>
               <a href="#" data-target="MobileNav" className="sidenav-trigger" style={{margin: "0"}}><i className="material-icons">menu</i></a>
             </div>
           </div>
