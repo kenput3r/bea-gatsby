@@ -15,7 +15,7 @@ const AboutSection = () => {
             <AboutImage />
           </div>
           <div className="col s12 l7">
-            <h2 style={{marginTop: "0"}}>About Beatriz Mendoza</h2>
+            <h1 style={{marginTop: "0"}}>About Beatriz Mendoza</h1>
             <p>My name is Beatriz Mendoza.  I grew up in Santa Ana.  I am a daughter of an immigrant mother.  My father passed when I was three years old.  My life has not been easy and my mother who I love dearly did the best she could.</p>
 
             <p>Affordable housing was always an issue for us.  Growing up my mother had to rent out rooms in order to make ends meet.  Needless to say, we moved quite a bit and my mother worked multiple jobs to put food on the table.  As a young girl, I remember walking to and from school with my siblings. My mother could not take us as she had to leave to work on the bus. After, she would come home and cook for us before she went to her second job.  This meant that I was alone a lot and it wasn’t long before I experienced sexual abuse.  I became a single mom at 19 and all the odds were stacked against me but I knew that I needed to not only provide for my son but be a positive example as well.</p>
