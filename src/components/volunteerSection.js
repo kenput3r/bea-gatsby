@@ -37,7 +37,7 @@ const VolunteerSection = () => {
       <div className="row">
         <div className="col s12">
           <p>1665 E 4th St #209, Santa Ana, CA 92701</p>
-          <p>For more information, contact Beatriz at <a href="mailto:info@beamendoza.com">info@beamendoza.com</a></p>
+          <p>For more information, contact Beatriz at <a href="mailto:info@beamendoza.com">info@beamendoza.com</a>, or use the contact form below.</p>
         </div>
       </div>
     </div>

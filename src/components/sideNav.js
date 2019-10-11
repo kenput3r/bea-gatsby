@@ -22,6 +22,7 @@ const SideNav = () => {
         <li><Link to="/about/">About</Link></li>*/}
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
+        <li><a href="/volunteer">Volunteer</a></li>
         <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=beatrizmendozaforcitycouncil%40gmail.com&item_name=Beatriz+Mendoza+for+City+Council+2019&currency_code=USD&source=url">Donate</a></li>
       </ul>
       <div className="row sidenav-social-icons valign-wrapper" style={{marginBottom: 0}}>
