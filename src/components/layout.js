@@ -20,8 +20,16 @@ if (typeof window !== `undefined`) {
 
 const Layout = ({ children }) => {
   useEffect(() => {
-    const elems = document.querySelectorAll('.sidenav');
-    window.M.Sidenav.init(elems, {edge: "right"});
+    const side_nav = document.querySelector('.sidenav');
+    const overlay = document.querySelector('.sidenav-overlay');
+    const drag_target = document.querySelector('.drag-target.right-aligned');
+    if(overlay !== null) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    if(drag_target !== null) {
+      drag_target.parentElement.removeChild(drag_target);
+    }
+    window.M.Sidenav.init(side_nav, {edge: "right"});
   });
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

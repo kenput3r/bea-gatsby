@@ -1,28 +1,24 @@
-import React from "react"
-//import { Link } from 'gatsby'
+import React, {useState, useEffect} from "react"
+import { Link } from 'gatsby'
 import facebook from "../images/icon-facebook.png"
 import instagram from "../images/icon-instagram.png"
 import twitter from "../images/icon-twitter.png"
 import youtube from "../images/icon-youtube.png"
 
 const SideNav = () => {
-  // useEffect(() => {
-  //   const el = document.querySelector('#MobileNav')
-  //   const side_nav = window.M.Sidenav.getInstance(el)
-  //   const button = document.querySelector('.close-button');
-  //   button.addEventListener('click', () => {
-  //     side_nav.close();
-  //   })
-  // })
+  const [side_nav, set_side_nav] = useState({})
+  useEffect(() => {
+    const el = document.querySelector('#MobileNav')
+    const side_nav = window.M.Sidenav.getInstance(el)
+    set_side_nav(side_nav)
+  })
   return(
     <div id="MobileNav" className="sidenav">
       <ul>
-        {/* <li><button className="btn-flat close-button"><i className="material-icons">close</i></button></li> */}
-        {/* <li><Link to="/">Home</Link></li>
-        <li><Link to="/about/">About</Link></li>*/}
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/volunteer">Volunteer</a></li>
+        <li><button className="btn-flat close-button" onClick={() =>side_nav.close()}><i className="material-icons">close</i></button></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about/">About</Link></li>
+        <li><Link to="/volunteer/">Volunteer</Link></li>
         <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=beatrizmendozaforcitycouncil%40gmail.com&item_name=Beatriz+Mendoza+for+City+Council+2019&currency_code=USD&source=url">Donate</a></li>
       </ul>
       <div className="row sidenav-social-icons valign-wrapper" style={{marginBottom: 0}}>

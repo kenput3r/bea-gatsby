@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import VideoSection from "../components/videoSection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -6,10 +6,9 @@ import PageHeader from "../components/pageHeader"
 import AboutSection from "../components/aboutSection"
 
 const AboutPage = () => {
-  // useEffect(() => {
-  //   const elems = document.querySelectorAll('.parallax');
-  //   window.M.Parallax.init(elems);
-  // });
+  useEffect(() => {
+    document.querySelectorAll('.sidenav-overlay').style = "display: none; opacity: 0;"
+  });
   return(
     <Layout>
       <SEO title="About Beatriz Mendoza" />
