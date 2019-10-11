@@ -35,7 +35,7 @@ const InfoSection = () =>(
         <div className="col s12 m4">
           <div className="icon-block">
             <div className="center brown-text"><i className="material-icons medium">home</i></div>
-            <h5 className="center">STABALIZE RENT AND HOUSING</h5>
+            <h5 className="center">STABILIZE RENT AND HOUSING</h5>
 
             <p className="light">I have been on the front lines of this battle, working tirelessly with community members and landlords to find new and creative ways to come to mutually beneficial terms. I know how it feels to lose a home, and I know how costly it can be for all parties involved.</p>
           </div>
