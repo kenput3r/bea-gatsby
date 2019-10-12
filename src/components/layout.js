@@ -30,6 +30,13 @@ const Layout = ({ children }) => {
       drag_target.parentElement.removeChild(drag_target);
     }
     window.M.Sidenav.init(side_nav, {edge: "right"});
+    //disable current Links
+    const current = document.querySelectorAll('[aria-current="page"]');
+    for(const link of current) {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+      })
+    }
   });
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

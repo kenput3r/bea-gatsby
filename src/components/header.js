@@ -5,31 +5,10 @@ import facebook from "../images/icon-facebook.png"
 import instagram from "../images/icon-instagram.png"
 import twitter from "../images/icon-twitter.png"
 import youtube from "../images/icon-youtube.png"
-//import Image from "../components/image"
-//import styled from "styled-components"
 
 const Header = ({ siteTitle }) => {
   return(
     <header>
-      {/* <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `1.45rem 1.0875rem`,
-        }}
-      >
-        <h1 style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}
-          >
-            {siteTitle}
-          </Link>
-        </h1>
-      </div> */}
       <div className="navbar-fixed">
       <nav>
         <div className="nav-wrapper" style={{padding: '0 10px'}}>
@@ -69,8 +48,6 @@ const Header = ({ siteTitle }) => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about/">About</Link></li>
                 <li><Link to="/volunteer/">Volunteer</Link></li>
-                {/* <li><a href="/events">Events</a></li>
-                <li><a href="/contact">Contact</a></li> */}
                 <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=beatrizmendozaforcitycouncil%40gmail.com&item_name=Beatriz+Mendoza+for+City+Council+2019&currency_code=USD&source=url" className="btn background-red">Donate</a></li>
               </ul>
             </div>
