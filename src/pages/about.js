@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageHeader from "../components/pageHeader"
 import AboutSection from "../components/aboutSection"
+import AboutVideoSection from "../components/aboutVideoSection"
 
 const AboutPage = () => {
   useEffect(() => {
@@ -14,7 +15,7 @@ const AboutPage = () => {
       <SEO title="About Beatriz Mendoza" />
       <PageHeader />
       <AboutSection />
-      <VideoSection url="https://www.youtube.com/embed/N4_l0aJuq9g?rel=0" />
+      <AboutVideoSection />
     </Layout>
   )
 }

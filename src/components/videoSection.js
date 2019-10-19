@@ -1,13 +1,20 @@
 import React from "react"
+import YouTubeVideo from "./youtubeVideo"
 
-const VideoSection = ({url}) => {
+const VideoSection = () => {
   return(
     <div className="container" style={{paddingTop: "20px"}}>
       <div className="row">
         <div className="col s12">
-          <div className="video-container">
-          <iframe width="560" height="315" src={url} frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </div>
+          <YouTubeVideo url={"https://www.youtube.com/embed/zCA8EvxjsFY?rel=0"} title={"Beatriz Mendoza For Santa Ana City Council"} />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col s12 l6">
+          <YouTubeVideo url={"https://www.youtube.com/embed/KLjEKpxRwpw?rel=0"} title={"Endorsed by Sal Tinajero"} />
+        </div>
+        <div className="col s12 l6">
+          <YouTubeVideo url={"https://www.youtube.com/embed/rIvzL2VH43E?rel=0"} title={"Endorsed by Millenials"} />
         </div>
       </div>
     </div>

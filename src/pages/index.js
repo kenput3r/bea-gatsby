@@ -18,8 +18,7 @@ const IndexPage = () => {
       <Banner />
       <InfoSection />
       <ParallaxSection />
-      <VideoSection url="https://www.youtube.com/embed/zCA8EvxjsFY?rel=0" />
-      {/* <Link to="/page-2/">Go to page 2</Link> */}
+      <VideoSection url="https://www.youtube.com/embed/zCA8EvxjsFY?rel=0" title="Beatriz Mendoza For Santa Ana City Council" />
       
     </Layout>
   )
