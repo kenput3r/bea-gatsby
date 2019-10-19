@@ -9,7 +9,7 @@ const VideoSection = () => {
           <YouTubeVideo url={"https://www.youtube.com/embed/zCA8EvxjsFY?rel=0"} title={"Beatriz Mendoza For Santa Ana City Council"} />
         </div>
       </div>
-      <div className="row">
+      <div className="row multi-video">
         <div className="col s12 l6">
           <YouTubeVideo url={"https://www.youtube.com/embed/KLjEKpxRwpw?rel=0"} title={"Endorsed by Sal Tinajero"} />
         </div>
