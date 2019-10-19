@@ -1,5 +1,4 @@
 import React, {useEffect} from "react"
-import VideoSection from "../components/videoSection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageHeader from "../components/pageHeader"
